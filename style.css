@@ -1,0 +1,102 @@
+html, body {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 23px;
+  outline: none;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 3, 19, 0.68);
+}
+@media (max-width: 400px) {
+  html, body {
+    margin: 0;
+  }
+  .clicks-box {
+    margin: 0 0 10px !important;
+  }
+}
+h1 {
+  font-size: 23px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+blockquote {
+  display: block;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  line-height: 1.428571429;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+blockquote span {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+blockquote span:nth-child(1) {
+  width: 60%;
+}
+blockquote span:nth-child(2) {
+  width: 25%;
+}
+blockquote span:nth-child(3) {
+  width: 15%;
+}
+blockquote div {
+  border-bottom: 2px dashed rgb(224, 224, 224);
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+pre {
+  font-size: 11px;
+  font-weight: 400;
+}
+.clicks-container {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+.clicks-box {
+  overflow: hidden;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+  margin: 0 40px 20px;
+}
+.clicks-box blockquote {
+  overflow: auto;
+  height: 320px;
+  width: 320px;
+  text-align: left;
+}
+.clear-btn {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  padding: 10px 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: white;
+}
+.float-right {
+  position: absolute;
+  right: 0;
+  top: 9px;
+}

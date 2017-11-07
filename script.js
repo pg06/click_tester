@@ -75,7 +75,7 @@ function printClickEvent(event) {
     }
 
     element.append(ClickDIV);
-    element.scrollTo(0, element.scrollHeight);
+    element.scrollTop = element.scrollHeight - element.clientHeight;
   } else {
     var prevElements = document.querySelectorAll('#' + keyContainerId);
     var updateElement = prevElements[prevElements.length - 1];
